@@ -7,13 +7,13 @@ a {
     text-decoration: none;
 }
 
-ul {
+header nav ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
 }
 
-li {
+header nav li {
     display: inline-block;
     margin: 10px;
 }
@@ -36,4 +36,30 @@ li {
     text-align: center;
     background-color: rgb(211, 203, 203);
     padding: 10px;
+}
+
+/*about.html*/
+
+.about {
+    text-align: center;
+}
+
+.about img {
+    width: 300px;
+}
+
+/*music.html*/
+
+#music {
+    margin-left: 10%;
+}
+
+/* contact.html*/
+.contact form *{
+    display: block;
+}
+
+.contact-form form, iframe {
+    display: inline-block;
+    width: 49%;
 }
